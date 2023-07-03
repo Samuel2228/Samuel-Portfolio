@@ -360,8 +360,9 @@ button:hover {
 }
 
 
-/* @MEDIAONLY SCREEN For Index.html */
+/* @MEDIAONLY SCREEN For Mobile Phones Only */
 	@media only screen and (max-width: 600px) {
+        
         /* Nav bars */
 
   nav {
@@ -458,7 +459,7 @@ button:hover {
     margin-top: 20px;
     position: absolute;
     bottom: 30px;
-    left: 250px;
+    left: 200px;
 }
 
 .contact-me-paragraph {
