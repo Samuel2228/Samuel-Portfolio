@@ -5,6 +5,10 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Portfolio container */
 
 
@@ -207,7 +211,6 @@ nav a {
     /* outline: 1px solid red; */
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
     position: relative;
     padding-top: 40px;
     background-color: #262626;
@@ -218,7 +221,6 @@ nav a {
     outline: 1px solid red;
     display: flex;
     justify-content: center;
-    /* margin-bottom: 50px; */
     background-color: #262626;
 } 
 
@@ -228,7 +230,6 @@ nav a {
     padding-top: 20px;
     width: 80%;
     text-align: center;
-    /* background-color:  */
     border-top: 1px solid #57c6f4;
     color: #6C757D;
 }
@@ -277,7 +278,6 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* outline: 1px solid red; */
     margin-top: 20px;
     text-align: center;
 }
@@ -415,6 +415,8 @@ button:hover {
     position: relative;
 }
 
+/* Web Projects */
+
 .web-project {
     text-align: center;
     /* outline: 1px solid  red; */
@@ -429,6 +431,8 @@ button:hover {
     border-radius: 7px;
     padding-top: 5px;
 }
+
+/* Mobile Projects */
 
 .mobile-projects {
     text-align: center;
@@ -453,6 +457,8 @@ button:hover {
     display: none;
 }
 
+/* Contact Me */
+
 .contact-me {
     /* outline: 1px solid red; */
     display: flex;
@@ -463,6 +469,7 @@ button:hover {
     height: 300px;
     position: relative;
 }
+
 .contact-me-icons {
     /* outline: 1px solid red; */
     text-align: center;
@@ -488,9 +495,7 @@ button:hover {
     margin-bottom: 20px;
 }
 
-
 /* Web.html Style here  */
-
 
 .web-img {
     display: flex;
@@ -506,6 +511,8 @@ button:hover {
     box-shadow: 10px 20px 20px #000000;
 }
 
+https://samuel2228.github.io/Form/
+
 .music-event img {
     padding-right: 50px;
     padding-left: 50px;
@@ -519,7 +526,6 @@ button:hover {
 .web-img2 {
     display: flex;
     justify-content: center;
-    /* align-items: flex-start; */
 }
 
 .web-img2 img:hover {
@@ -530,7 +536,6 @@ button:hover {
     padding-right: 50px;
     padding-left: 50px;
 }
-
 
 /* Phone.html Style here */
 
@@ -573,8 +578,5 @@ button:hover {
     color: #6C757D;
 }
 
-    /* Phone.html Media Only-Screen Here */
-
-    
 
 }
